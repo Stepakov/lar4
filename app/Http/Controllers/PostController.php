@@ -10,4 +10,6 @@ use Illuminate\Routing\Controller as BaseController;
 class PostController extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+
+    public function postFromGitLaravel1() { return ''; }
 }
